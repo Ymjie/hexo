@@ -21,7 +21,7 @@ jobs:
     - name: Setup Node.js 16.x 
       uses: actions/setup-node@master
       with:
-        node-version: "12.x"
+        node-version: "16.x"
     
     - name: Setup Hexo Dependencies
       run: |
