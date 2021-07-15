@@ -48,7 +48,7 @@ favicon:
   #ms_browserconfig: /images/browserconfig.xml
 
 # Show multilingual switcher in footer.
-language_switcher: false
+language_switcher: true
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
@@ -67,7 +67,7 @@ footer:
   copyright:
 
   # Powered by Hexo & NexT
-  powered: true
+  powered: false
 
   # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
@@ -87,8 +87,8 @@ footer:
 # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
 creative_commons:
   license: by-nc-sa
-  sidebar: false
-  post: false
+  sidebar: true
+  post: true
   language: zh-Hans
 
 
@@ -163,11 +163,11 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: /images/avatar.gif
+  url: https://avatars.githubusercontent.com/u/25454375?s=400&u=4291ce69fe41b32fac1f4f83b66d0eca5d04772f&v=4
   # If true, the avatar will be dispalyed in circle.
   rounded: true
   # If true, the avatar will be rotated with the cursor.
-  rotated: true
+  rotated: false
 
 # Posts / Categories / Tags in sidebar.
 site_state: true
@@ -512,7 +512,7 @@ math:
 
 # Easily enable fast Ajax navigation on your website.
 # Dependencies: https://github.com/theme-next/theme-next-pjax
-pjax: false
+pjax: true
 
 # FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.
 # For more information: https://fancyapps.com/fancybox
@@ -789,7 +789,7 @@ note:
   #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
   #  - disabled  disable all CSS styles import of note tag.
   style: simple
-  icons: false
+  icons: true
   # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
   # Offset also applied to label tag variables. This option can work with disabled note tag.
   light_bg_offset: 0
